@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,500&display=swap');
+
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #3b81ff;
+}
+
+header {
+
+    width: 35%;
+}
+
+/* SECTION NAV */
+
+.nav-logo {
+
+    display: inline-block;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: end;
+    /* background-color: #262626; */
+}
+
+.logo {
+
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.3px;
+    font-size: 22px;
+    padding-right: 10px;
+    
+}
+
+.div-divider {
+    display: flex;
+}
+
+.divider {
+
+    margin-top: 10px;
+    background-color: #222c3d;
+    opacity: 20%;
+    height: 1.5px;
+    width: 100%;
+    outline: #262626;
+
+}
+
+.container-img-background {
+
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    right: 0;
+    top: 0;
+}
+
+.background-image {
+
+    width: 100%;
+    height: 100%;
+    -webkit-clip-path: polygon(15% 100% , 30% 0%, 100% -100%, 100% 100%);
+    /* clip-path: polygon(0 0, 0 100px, 100px 80px, 100px 0); */
+}
+
+/* SECTION TITLE */
+
+
+
+.div-container-main {
+
+    margin-left: 50px;
+    width: 40%;
+}
+
+.main-title {
+
+    color: white;
+    font-family: 'Kanit', sans-serif;
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+
+/* SECTION DESCRIPTION */
+
+.main-dsc {
+
+    font-family: 'Montserrat', sans-serif;
+    width: 80%;
+    
+}
+
+/* SECTION QUANTITY */
+
+.div-qty {
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+.qty {
+    
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 8px;
+    
+}
+
+.qty-btn {
+
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.qty-n {
+
+    margin-left: 8px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.div-box-ctf {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 200px;
+    /* background-color: #222c3d; */
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-top: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+.ctf-icon {
+
+    font-size: 18px;
+
+}
+
+/* SECTION BTNS */
+
+.container-btn {
+
+    /* position: absolute; */
+    /* left: 50px; */
+    /* bottom: 50px; */
+    width: min-content;
+    margin-left: 50px;
+    margin-top: 270px;
+    letter-spacing: 0.3px;
+        
+}
+
+.btn-cv {
+    
+    background-color: #262626;
+    border: none;
+    width: 240px;
+    font-weight: 700;
+    color: white;
+    /* top right bottom left */
+    margin-top: 40px;
+    padding: 20px 0% 20px 0%;
+    
+}
+
+.btn-mt {
+
+    width: 100%;
+    background-color: #262626;
+    border: none;
+    font-weight: 700;
+    color: white;
+    /* top right bottom left */
+    margin-top: 30px;
+    padding: 20px 0 20px 0;
+}
+
+/* FOOTER SECTION */
+
+footer {
+
+    display: flex;
+    justify-content: center;
+}
+
+.div-footer {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #262626;
+    color: white;
+    width: 100%;
+    height: 40px;
+    font-family: 'Kanit', sans-serif;
+    /* text-shadow: black; */
+
+}
+
+.p-md {
+
+    padding-right: 40px;
+}
+
+
+.bx-social {
+
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.ls-social {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#a-social {
+
+    padding-right: 10px;
+    color: white;
+
+}
+
+#a-social:hover {
+
+    color: #3b81ff;
+
+}
